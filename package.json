@@ -2,7 +2,7 @@
   "name": "gutenburg",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mjmzs.github.io/gutenburg/",
+  "homepage": "https://github.com/mjmzs/gutenburg/tree/master/public",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "react": "^16.4.2",
@@ -13,7 +13,7 @@
   },
   "scripts": {
 	"predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
