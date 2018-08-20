@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: serif;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  color: #5E2CA5;
+  background-color: #F5F5F5;
+  position: relative;
+}
+header {
+  background-image: url("./containers/navbgimage.jpg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@font-face {
+  font-family: W_Yekan;
+  src: url("./containers/Yekan.woff");
+}
+a {
+  font-family: W_Yekan;
+}

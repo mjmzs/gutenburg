@@ -1,0 +1,92 @@
+
+.app{
+    position: absolute;
+    width: 95%;
+    height: auto;
+    top: 0px;
+    left: 2.5%;
+    right: 0px;
+    bottom: 0px;
+}
+.resetMargin {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.acontentjustify {
+    margin-left: 2.5%;
+}
+#rtldiv {
+    direction: rtl;
+  }
+  @font-face {
+    font-family: W_Yekan;
+    src: url("./Yekan.woff");
+  }
+@media only screen and (max-width: 360px) {
+    .pMainContent{
+        font-family: W_Yekan !important;
+        font-size: 1em !important;
+        font-weight: normal !important;
+        justify-content: right !important;
+        text-align: right;
+        margin-right: 6px !important;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .pMainContent{
+        font-family: W_Yekan !important;
+        font-size: 1.1em !important;
+        font-weight: normal !important;
+        justify-content: right !important;
+        text-align: right;
+        margin-right: 6px !important;
+    }
+  }
+  @media only screen and (max-width: 720px) {
+    .pMainContent{
+        font-family: W_Yekan !important;
+        font-size: 1.3em !important;
+        font-weight: normal !important;
+        justify-content: right !important;
+        text-align: right;
+        margin-right: 8px !important;
+    }
+    .titleSpan {
+        display: block !important;
+        font-family: W_Yekan !important;
+        font-size: 1.2em !important;
+        font-weight: bold !important;
+        justify-content: center !important;
+        text-align: center;
+        padding: 10px 0px;
+        width: 100% !important;
+        height: auto !important;
+        background-color: #131313 !important;
+        color: #f4f4f4;
+        margin: 10px 0px;
+    }
+  }
+  @media only screen and (min-width: 721px) {
+    .pMainContent{
+        font-family: W_Yekan !important;
+        font-size: 1.5em !important;
+        font-weight: normal !important;
+        justify-content: right !important;
+        text-align: right;
+        margin-right: 12px !important;
+    }
+    .titleSpan {
+        display: block !important;
+        font-family: W_Yekan !important;
+        font-size: 1.7em !important;
+        font-weight: bold !important;
+        justify-content: center !important;
+        text-align: center;
+        padding: 10px 0px;
+        width: 100% !important;
+        height: auto !important;
+        background-color: #131313 !important;
+        color: #f4f4f4;
+        margin: 10px 0px;
+    }
+  }
