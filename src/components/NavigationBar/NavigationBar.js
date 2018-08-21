@@ -1,25 +1,28 @@
 import React from 'react';
 import './NavigationBar.css';
 
-const NavigationBar = () => {
+const NavigationBar = ({ onPageChange }) => {
     return (
         <div id='rtldiv' class="mb5 lh-copy">
-          <a class="ba no-underline grow br2 b inline-flex items-center mr4 mb3 pv2 ph4" href="http://opencollective.com/tachyons" title="Home">
+          <a class="ba no-underline grow br2 b inline-flex items-center mr4 mb3 pv2 ph4" title="Home" onClick={()=> onPageChange('home')}>
             خانه
           </a>
-          <a class="ba no-underline grow br2 b inline-flex items-center mr4 mb3 pv2 ph4" href="/xray/" title="Electronic Visit Card">
+          <a class="ba no-underline grow br2 b inline-flex items-center mr4 mb3 pv2 ph4" title="Electronic Visit Card" onClick={()=> onPageChange('elec')}>
             کارت ویزیت الکترونیک
           </a>
-          <a class="ba no-underline grow br2 b inline-flex items-center mr4 mb3" href="/resources/" title="SMS Panel">
+          <a class="ba no-underline grow br2 b inline-flex items-center mr4 mb3" onClick={()=> onPageChange('sms')}>
           سامانه پیامکی
           </a>
-          <a class="ba no-underline grow br2 b inline-flex items-center mr4 mb3 pv2 ph4" href="/gallery/" title="Print Services">
+          <a class="ba no-underline grow br2 b inline-flex items-center mr4 mb3 pv2 ph4" onClick={()=> onPageChange('print')}>
             خدمات چاپ
           </a>
-          <a class="ba no-underline grow br2 b inline-flex items-center mr4 mb3 pv2 ph4" href="/components/" title="Graphic Design Services">
+          <a class="ba no-underline grow br2 b inline-flex items-center mr4 mb3 pv2 ph4" onClick={()=> onPageChange('design')}>
           خدمات طراحی گرافیک
           </a>
-          <a class="acontentjustify ba no-underline grow br2 b inline-flex items-center mr4 mb3 pv2 ph3" href="/docs" title="Contact">
+          <a class="acontentjustify ba no-underline grow br2 b inline-flex items-center mr4 mb3 pv2 ph3" onClick={()=> onPageChange('register')}>
+          ثبت پنل
+          </a>
+          <a class="acontentjustify ba no-underline grow br2 b inline-flex items-center mr4 mb3 pv2 ph3" onClick={()=> onPageChange('contact')}>
           تماس با ما
           </a>
         </div>
