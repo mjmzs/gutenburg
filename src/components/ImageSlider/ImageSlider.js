@@ -12,7 +12,7 @@ const images = [
 
 const ImageSlider = () => {
     return (
-        <div className='resetMargin'>
+        <div className='shadow-2'>
             <Slide
             images={images}
             duration={5000}

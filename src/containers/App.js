@@ -26,56 +26,59 @@ class App extends Component {
         return (
           <div>
             <ImageSlider />
-            <MainContainer />
-            <FooterContainer />
+            <div className='shadow-2'>
+              <MainContainer />
+              <FooterContainer />
+            </div>
+            
           </div>
         );
         break;
       case 'elec':
         return (
-          <div>
+          <div className='shadow-2'>
             <ElecContainer />
           </div>
         );
         break;
       case 'sms':
         return (
-          <div>
+          <div className='shadow-2'>
             <SMSPanel />
           </div>
         );
         break;
       case 'print':
         return (
-          <div>
+          <div className='shadow-2'>
             <Print />
           </div>
         );
         break;
       case 'design':
         return (
-          <div>
+          <div className='shadow-2'>
             <Design />
           </div>
         );
         break;
       case 'register':
         return (
-          <div>
+          <div className='shadow-2'>
             <Register />
           </div>
         );
         break;
       case 'contact':
         return (
-          <div>
+          <div className='shadow-2'>
             <Contact />
           </div>
         );
         break;
       default:
         return (
-          <div>
+          <div className='shadow-2'>
             <ImageSlider />
             <MainContainer />
             <FooterContainer />
@@ -91,7 +94,7 @@ class App extends Component {
     const { root } = this.state;
     return (
       <div className='app'>
-          <header id='rtldiv'>
+          <header id='rtldiv minsnav' className='shadow-2'>
               <TitleBar />
               <NavigationBar onPageChange={this.onPageChange} />
           </header>

@@ -12,16 +12,197 @@ body {
   background-color: #F5F5F5;
   position: relative;
 }
-header {
-  background-image: url("./containers/navbgimage.jpg");
-  background-position: top right;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 @font-face {
   font-family: W_Yekan;
   src: url("./containers/Yekan.woff");
 }
 a {
   font-family: W_Yekan;
+}
+@media only screen and (max-width: 470px) {
+  .pMainContent{
+      font-family: W_Yekan !important;
+      font-size: 1em !important;
+      font-weight: normal !important;
+      justify-content: right !important;
+      text-align: right;
+      margin-right: 6px !important;
+  }
+  header {
+    padding: 3px 8px 3px 8px;
+    background-image: url("./containers/navbgimage.jpg");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0.7em !important;
+  }
+  a {
+    display: inline-block !important;
+    color: #131313;
+    padding: 5px 0px !important;
+    width: 40%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 0.5em !important;
+    margin-right: 0em !important;
+    margin-left: 10% !important;
+    font-size: 0.8em;
+    font-weight: normal !important;
+  }
+  .minsnav {
+    justify-content: center !important;
+    align-content: center !important;
+    align-items: center !important;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .pMainContent{
+      font-family: W_Yekan !important;
+      font-size: 1.3em !important;
+      font-weight: normal !important;
+      justify-content: right !important;
+      text-align: right;
+      margin-right: 8px !important;
+  }
+  .titleSpan {
+      display: block !important;
+      font-family: W_Yekan !important;
+      font-size: 1.2em !important;
+      font-weight: bold !important;
+      justify-content: center !important;
+      text-align: center;
+      padding: 10px 0px;
+      width: 100% !important;
+      height: auto !important;
+      background-color: #b1007c !important;
+      color: #f4f4f4;
+      margin: 10px 0px;
+  }
+  header {
+    padding: 5px 10px 5px 10px;
+    background-image: url("./containers/navbgimage.jpg");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1em !important;
+  }
+  a {
+    display: inline-block !important;
+    color: #131313 !important;
+    padding: 7px 9px !important;
+    width: 95px !important;
+    height: 29px;
+    text-align: center;
+    margin-bottom: 0.4em !important;
+    margin-left: 0.3em !important;
+    margin-right: 0px !important;
+    font-size: 0.55em;
+    font-weight: bold !important;
+  }
+  .minsnav {
+    justify-content: center !important;
+    align-content: center !important;
+    align-items: center !important;
+  }
+}
+@media only screen and (min-width: 1075px) {
+  .pMainContent{
+      font-family: W_Yekan !important;
+      font-size: 1.3em !important;
+      font-weight: normal !important;
+      justify-content: right !important;
+      text-align: right;
+      margin-right: 8px !important;
+  }
+  .titleSpan {
+      display: block !important;
+      font-family: W_Yekan !important;
+      font-size: 1.2em !important;
+      font-weight: bold !important;
+      justify-content: center !important;
+      text-align: center;
+      padding: 10px 0px;
+      width: 100% !important;
+      height: auto !important;
+      background-color: #b1007c !important;
+      color: #f4f4f4;
+      margin: 10px 0px;
+  }
+  header {
+    padding: 5px 10px 5px 10px;
+    background-image: url("./containers/navbgimage.jpg");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1em !important;
+  }
+  a {
+    display: inline-block !important;
+    color: #131313 !important;
+    padding: 12px 8px !important;
+    width: 125px !important;
+    height: auto;
+    text-align: center;
+    margin-bottom: 0.4em !important;
+    margin-left: 0.9em !important;
+    margin-right: 0px !important;
+    font-size: 0.7em;
+    font-weight: bold !important;
+  }
+  .minsnav {
+    justify-content: center !important;
+    align-content: center !important;
+    align-items: center !important;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .pMainContent{
+      font-family: W_Yekan !important;
+      font-size: 1.3em !important;
+      font-weight: normal !important;
+      justify-content: right !important;
+      text-align: right;
+      margin-right: 8px !important;
+  }
+  .titleSpan {
+      display: block !important;
+      font-family: W_Yekan !important;
+      font-size: 1.2em !important;
+      font-weight: bold !important;
+      justify-content: center !important;
+      text-align: center;
+      padding: 10px 0px;
+      width: 100% !important;
+      height: auto !important;
+      background-color: #b1007c !important;
+      color: #f4f4f4;
+      margin: 10px 0px;
+  }
+  header {
+    padding: 5px 10px 5px 10px;
+    background-image: url("./containers/navbgimage.jpg");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1em !important;
+  }
+  a {
+    display: inline-block !important;
+    color: #131313 !important;
+    padding: 12px 8px !important;
+    width: 145px !important;
+    height: auto;
+    text-align: center;
+    margin-bottom: 0.4em !important;
+    margin-left: 1em !important;
+    margin-right: 0px !important;
+    font-size: 0.9em;
+    font-weight: bold !important;
+  }
+  .minsnav {
+    justify-content: center !important;
+    align-content: center !important;
+    align-items: center !important;
+  }
 }

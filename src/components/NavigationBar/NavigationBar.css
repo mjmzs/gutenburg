@@ -1,21 +1,19 @@
-
+/* 
 @media only screen and (min-width: 1137px) {
     a {
-      background-color: #111111 !important;
-      color: #ff9900;
+      color: #131313;
       padding: 0px !important;
       justify-content: center;
       width: 13%;
       height: 40px;
-      margin-bottom: 1em !important;
+      margin-bottom:1em !important;
       margin-right: 1.8em !important;
     }
   }
   
   @media only screen and (max-width: 1136px) {
     a {
-      background-color: #111111 !important;
-      color: #ff9900;
+      color: #131313;
       padding: 0px !important;
       justify-content: center;
       width: 13%;
@@ -27,8 +25,7 @@
   }
   @media only screen and (max-width: 1136px) {
     a {
-      background-color: #111111 !important;
-      color: #ff9900;
+      color: #131313;
       padding: 0px !important;
       justify-content: center;
       width: 124px;
@@ -41,8 +38,7 @@
   }
   @media only screen and (max-width: 886px) {
     a {
-      background-color: #111111 !important;
-      color: #ff9900;
+      color: #131313;
       padding: 5px 20px !important;
       width: auto;
       height: auto;
@@ -54,51 +50,5 @@
     }
   }
   @media only screen and (max-width: 760px) {
-    a {
-      display: block;
-      background-color: #111111 !important;
-      color: #ff9900;
-      padding: 7px 0px !important;
-      width: 100%;
-      height: auto;
-      justify-content: center;
-      margin-bottom: 0.3em !important;
-      margin-right: 0em !important;
-      margin-left: 0% !important;
-      font-size: 1em;
-      font-weight: bold !important;
-    }
-  }
-  @media only screen and (max-width: 480px) {
-    a {
-      display: block;
-      background-color: #111111 !important;
-      color: #ff9900;
-      padding: 5px 0px !important;
-      width: 100%;
-      height: auto;
-      justify-content: center;
-      margin-bottom: 0.2em !important;
-      margin-right: 0em !important;
-      margin-left: 0% !important;
-      font-size: 0.8em;
-      font-weight: normal !important;
-    }
-  }
-
-@media only screen and (max-width: 360px) {
-  a {
-    display: block;
-    background-color: #111111 !important;
-    color: #ff9900;
-    padding: 4px 0px !important;
-    width: 100%;
-    height: auto;
-    justify-content: center;
-    margin-bottom: 0.2em !important;
-    margin-right: 0em !important;
-    margin-left: 0% !important;
-    font-size: 0.7em;
-    font-weight: normal !important;
-  }
-}
+    
+  } */
