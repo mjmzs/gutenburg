@@ -5,7 +5,7 @@ import ImageSlider from '../components/ImageSlider/ImageSlider.js';
 import MainContainer from '../components/MainContainer/MainContainer.js';
 import FooterContainer from '../components/FooterContainer/FooterContainer.js';
 import ElecContainer from '../components/ElecContainer/ElecContainer.js';
-import SMSPanel from '../components/SMSPanel/SMSPanel.js';
+import CRMP from '../components/CRMP/CRMP.js';
 import Print from '../components/Print/Print.js';
 import Design from '../components/Design/Design.js';
 import Register from '../components/Register/Register.js';
@@ -37,14 +37,14 @@ class App extends Component {
       case 'elec':
         return (
           <div className='shadow-2'>
-            <ElecContainer />
+            <ElecContainer onPageChange={this.onPageChange}/>
           </div>
         );
         break;
       case 'sms':
         return (
           <div className='shadow-2'>
-            <SMSPanel />
+            <CRMP onPageChange={this.onPageChange}/>
           </div>
         );
         break;

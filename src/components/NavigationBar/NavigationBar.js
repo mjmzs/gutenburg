@@ -1,5 +1,4 @@
 import React from 'react';
-import './NavigationBar.css';
 
 const NavigationBar = ({ onPageChange }) => {
     return (
@@ -11,7 +10,7 @@ const NavigationBar = ({ onPageChange }) => {
             کارت ویزیت الکترونیک
           </a>
           <a class="pointer ba no-underline grow br2 b inline-flex items-center mr4 mb3 shadow-1" onClick={()=> onPageChange('sms')}>
-          سامانه پیامکی
+          سامانه CRM
           </a>
           <a class="pointer ba no-underline grow br2 b inline-flex items-center mr4 mb3 pv2 ph4 shadow-1" onClick={()=> onPageChange('print')}>
             خدمات چاپ
