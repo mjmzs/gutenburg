@@ -19,18 +19,90 @@ const Print = () => {
                 <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">فکس</li>
                 <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">اسکن رنگی و سیاه و سفید</li>
                 <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">لمینت از کارت کوچک تا سایز A4</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">سیم کردن انواع دفتر، کتاب، فاکتور ویا دفترچه</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">چاپ بنر</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">اعلامیه برای انواع مناسبت ها</li>
             </ul>
             </p>
             <span className='titleSpan'>انواع چاپ اُفست</span>
-            <p id='rtldiv' className='pListContent'></p>
+            <p id='rtldiv' className='pListContent'>
+            <ul class="list ph3 ph5-ns pv4">
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">تراکت</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">کارت ویزیت</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">پاکت نامه</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">لیبل</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">سر رسید</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">فاکتور</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">کتاب</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">دفترچه</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">دفتر</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">بنر</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">تقویم</li>
+            </ul>
+            </p>
             <span className='titleSpan'>انواع انواع فاکتور، دفترچه و سر رسید</span>
-            <p id='rtldiv' className='pListContent'></p>
+            <p id='rtldiv' className='pListContent'>
+            <ul class="list ph3 ph5-ns pv4">
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">رنگی</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">سیاه و سفید</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">A6</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">A5</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">A4</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">A3</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">چسبی و سیمی</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">چرم، فوم، کارتن</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">طلا کوب</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">نقره کوب</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">Chantilly</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">Chartreux</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">Chausie</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">Cheetoh</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">Colorpoint</li>
+            </ul>
+            </p>
             <span className='titleSpan'>انواع کارت ویزیت</span>
-            <p id='rtldiv' className='pListContent'></p>
-            <span className='titleSpan'>انواع تراکت</span>
-            <p id='rtldiv' className='pListContent'></p>
+            <p id='rtldiv' className='pListContent'>
+            <ul class="list ph3 ph5-ns pv4">
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">لمینت</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">سلفون</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">گوش گرد</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">گرد</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">مستطیل</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">اشکال خاص</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">براق و مات</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">طلاکوب</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">برجسته</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">کتان</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">ترنسپ</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">Chausie</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">Cheetoh</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">Colorpoint</li>
+            </ul>
+            </p>
+            <span className='titleSpan'>انواع انواع تراکت، پوستر و اعلامیه</span>
+            <p id='rtldiv' className='pListContent'>
+            <ul class="list ph3 ph5-ns pv4">
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">سایز های A6 تا A4</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">پوستر تا سایز A1</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">رنگی و سیاه و سفید</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">گلاسه و تحریر</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">سبک و سنگین</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">نازک و زخیم</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">تک رو و دورو</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">Chartreux</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">Chausie</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">Cheetoh</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">Colorpoint</li>
+            </ul>
+            </p>
             <span className='titleSpan'>انواع پاکت نامه</span>
-            <p id='rtldiv' className='pListContent'></p>
+            <p id='rtldiv' className='pListContent'>
+            <ul class="list ph3 ph5-ns pv4">
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">ملخی</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">Brazilian</li>
+                <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">British</li>
+            </ul>
+            </p>
         </div>
     )
 }
