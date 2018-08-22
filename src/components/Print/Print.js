@@ -3,10 +3,13 @@ import React from 'react';
 const Print = () => {
     return (
         <div>
-            <span className='titleSpan'>بهترین انتخاب با مناسب ترین قیمت</span>
+            <span className='titleSpan mb3 shadow-2 mt4'>بهترین انتخاب با مناسب ترین قیمت</span>
+            <div className='ph3 pv1 mcontent shadow-2 mb3 tj'>
             <p id='rtldiv' className='pMainContent'>گوتنبرگ از سال 82 در استان قم فعالیت خود را شروع کرده است.در آغاز، دفتر فنی ما ارائه خدمات طراحی و چاپ را در شهر قم داشته است و اکنون خدمات جدید خود را برای کسب و کار مدرن بصورت سراسری در کشور، ارائه می دهد. با همکاری مشترک می توانیم طرح و برنامه جدیدی برای کسب و کار و تجارت خود آغاز کنیم و با راهبردی مدرن و خلاق یک قدم رو به جلو برداریم.</p>
             <p id='rtldiv' className='pMainContent'>اکنون با تجربه چنیدن ساله ما در چاپ افست و دیجیتال، می توانید با مناسب ترین قیمت ها آغاز یک تبلیغات خلاق با بهترین کیفیت را داشته باشید و هزینه های اضافی و بی هدف را دور ریخته و سرمایه کار خود قرار بدهید. در ادامه لیستی از انواع خدمات و چاپ های افست و دیجیتال را برای شما قرار داده ایم، می توانید با تماس بگیرید تا از جزئیات هریک مطلع شده ویا سفارش بدهید.</p>
-            <span className='titleSpan'>انواع خدمات، چاپ و کپی دیجیتال</span>
+            </div>
+            <span className='titleSpan mb3 shadow-2 mt4'>انواع خدمات، چاپ و کپی دیجیتال</span>
+            <div className='ph3 pv1 mcontent shadow-2 mb3 tj'>
             <p id='rtldiv' className='pListContent'>
             <ul class="list ph3 ph5-ns pv4">
                 <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">کپی رنگی و سیاه و سفید</li>
@@ -24,7 +27,9 @@ const Print = () => {
                 <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">اعلامیه برای انواع مناسبت ها</li>
             </ul>
             </p>
-            <span className='titleSpan'>انواع چاپ اُفست</span>
+            </div>
+            <span className='titleSpan mb3 shadow-2 mt4'>انواع چاپ اُفست</span>
+            <div className='ph3 pv1 mcontent shadow-2 mb3 tj'>
             <p id='rtldiv' className='pListContent'>
             <ul class="list ph3 ph5-ns pv4">
                 <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">تراکت</li>
@@ -40,7 +45,9 @@ const Print = () => {
                 <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">تقویم</li>
             </ul>
             </p>
-            <span className='titleSpan'>انواع انواع فاکتور، دفترچه و سر رسید</span>
+            </div>
+            <span className='titleSpan mb3 shadow-2 mt4'>انواع انواع فاکتور، دفترچه و سر رسید</span>
+            <div className='ph3 pv1 mcontent shadow-2 mb3 tj'>
             <p id='rtldiv' className='pListContent'>
             <ul class="list ph3 ph5-ns pv4">
                 <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">رنگی</li>
@@ -60,7 +67,9 @@ const Print = () => {
                 <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">Colorpoint</li>
             </ul>
             </p>
-            <span className='titleSpan'>انواع کارت ویزیت</span>
+            </div>
+            <span className='titleSpan mb3 shadow-2 mt4'>انواع کارت ویزیت</span>
+            <div className='ph3 pv1 mcontent shadow-2 mb3 tj'>
             <p id='rtldiv' className='pListContent'>
             <ul class="list ph3 ph5-ns pv4">
                 <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">لمینت</li>
@@ -79,7 +88,9 @@ const Print = () => {
                 <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">Colorpoint</li>
             </ul>
             </p>
-            <span className='titleSpan'>انواع انواع تراکت، پوستر و اعلامیه</span>
+            </div>
+            <span className='titleSpan mb3 shadow-2 mt4'>انواع انواع تراکت، پوستر و اعلامیه</span>
+            <div className='ph3 pv1 mcontent shadow-2 mb3 tj'>
             <p id='rtldiv' className='pListContent'>
             <ul class="list ph3 ph5-ns pv4">
                 <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">سایز های A6 تا A4</li>
@@ -95,7 +106,9 @@ const Print = () => {
                 <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">Colorpoint</li>
             </ul>
             </p>
-            <span className='titleSpan'>انواع پاکت نامه</span>
+            </div>
+            <span className='titleSpan mb3 shadow-2 mt4'>انواع پاکت نامه</span>
+            <div className='ph3 pv1 mcontent shadow-2 mb3 tj'>
             <p id='rtldiv' className='pListContent'>
             <ul class="list ph3 ph5-ns pv4">
                 <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">ملخی</li>
@@ -103,6 +116,7 @@ const Print = () => {
                 <li class="dib mr3 f6 f5-ns b db pa2 link  mid-gray">British</li>
             </ul>
             </p>
+            </div>
         </div>
     )
 }

@@ -2,13 +2,32 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div>
-            <span className='titleSpan'>تماس با ما</span>
-            <p id='rtldiv' className='pMainContent'>
-            گوتنبرگ از سال 94 در استان قم فعالیت خود را شروع کرده است.در آغاز، دفتر فنی ما ارائه خدمات طراحی و چاپ را در شهر قم داشته است و اکنون خدمات جدید خود را برای کسب و کار مدرن بصورت سراسری در کشور، ارائه می دهد. خدماتی همچون؛ طراحی و راه اندازی وبسایت، سامانه پیامکی، کارت ویزیت الکترونیک، خدمات ussd ، طراحی و تولید محتوا، چاپ افست و دیجیتال، طراحی گرافیک. با تجربه چندین ساله ما در بازار، کسب و کار مشتریان ما در کنار یک تیم خلاق و خدمات قابل ارائه توسط ما، در یک ساختار مدرن، رویکرد تازه ای به خود گرفته و یک گام رو به جلو پیش رفت داشته است.
-            </p>
-            <p id='rtldiv' className='pMainContent'>شما هم می توانید با ایجاد یک راهکار متفاوت و کمی خلاقیت در کار، با ساختاری ساده در کسب و کار دیجیتال قدم گذاشته و با ما رو به جلو حرکت کنید.</p>
+      <div>
+      <span className='titleSpan mb3 shadow-2 mt4'>تماس با ما</span>
+          <div class="mw7 center bg-white ph3 pv1 shadow-2 mb3">
+              <div class="measure center">
+                <fieldset id="sign_up" class="ba b--transparent ph0 mh0">
+                <div class="mt3">
+                   <label class="db fw6 lh-copy f6" for="email-address">
+                        Email</label>
+                        <input class="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="email" name="email-address"  id="email-address" />
+                </div>
+                <div class="mv3">
+                    <label class="db fw6 lh-copy f6" for="password">Password</label>
+                    <input class="b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="password" name="password"  id="password" />
+                </div>
+                </fieldset>
+                <div class="">
+                  <input class="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib" type="submit" value="Sign in" />
+                </div>
+                  <div class="lh-copy mt3">
+                  <a href="#0" class="f6 link dim black db">Sign up
+                  </a>
+                  <a href="#0" class="f6 link dim black db">Forgot your password?</a>
+                </div>
+            </div>
         </div>
+     </div>
     )
 }
 

@@ -1,16 +1,37 @@
 
+@media only screen and (min-width: 1000px) {
+    .mainFooterImage {
+        display: inline-block;
+        width: 24%;
+        margin-left: 1%;
+        height: auto;
+    }
+    .mainFooterFix {
+        padding-right: 0.9rem;
+    }
+  }
+
+@media only screen and (max-width: 999px) {
+    .mainFooterImage {
+        display: inline-block;
+        width: 24%;
+        margin-left: 1%;
+        height: auto;
+    }
+    .mainFooterFix {
+        padding-right: 0.5rem;
+    }
+  }
+
 @media only screen and (max-width: 480px) {
     .mainFooterImage {
         display: inline-block;
-        width: 50%;
+        width: 48%;
+        margin-left: 2%;
         height: auto;
+    }
+    .mainFooterFix {
+        padding-right: 0.4rem;
     }
   }
   
-@media only screen and (min-width: 481px) {
-    .mainFooterImage {
-        display: inline-block;
-        width: 25%;
-        height: auto;
-    }
-  }

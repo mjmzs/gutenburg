@@ -25,9 +25,11 @@ class App extends Component {
       case 'home':
         return (
           <div>
-            <ImageSlider />
             <div className='shadow-2'>
               <MainContainer />
+            </div>
+            <ImageSlider />
+            <div className='shadow-2'>
               <FooterContainer />
             </div>
             
@@ -71,7 +73,7 @@ class App extends Component {
         break;
       case 'contact':
         return (
-          <div className='shadow-2'>
+          <div>
             <Contact />
           </div>
         );

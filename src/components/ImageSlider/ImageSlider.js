@@ -12,7 +12,7 @@ const images = [
 
 const ImageSlider = () => {
     return (
-        <div className='shadow-2'>
+        <div className='shadow-2 mt4'>
             <Slide
             images={images}
             duration={5000}
