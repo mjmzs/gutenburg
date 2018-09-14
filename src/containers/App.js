@@ -16,7 +16,7 @@ class App extends Component {
   constructor () {
     super();
     this.state = {
-      root: 'home',
+      root: 'register',
     };
   }
   rootSelector = (root) => {
@@ -66,7 +66,7 @@ class App extends Component {
         break;
       case 'register':
         return (
-          <div className='shadow-2'>
+          <div>
             <Register />
           </div>
         );
@@ -95,8 +95,8 @@ class App extends Component {
   render() {
     const { root } = this.state;
     return (
-      <div className='app'>
-          <header id='rtldiv minsnav' className='shadow-2'>
+      <div className='app bgImage'>
+          <header id='rtldiv minsnav' className='shadow-5 header'>
               <TitleBar />
               <NavigationBar onPageChange={this.onPageChange} />
           </header>
@@ -107,38 +107,3 @@ class App extends Component {
 }
 
 export default App;
-
-    // if ( root === 'home') {
-    //   return (<div></div>);
-    // } else if (root === 'elec') {
-    //   return (<div></div>);
-    // } else if (root === 'elec') {
-    //   return (<div></div>);
-    // } else if (root === 'elec') {
-    //   return (<div></div>);
-    // } else if (root === 'elec') {
-    //   return (<div></div>);
-    // } else (root === 'elec') {
-    //   return (<div></div>);
-    // };
-
-// return (
-//   <div className='app'>
-//    <header id='rtldiv'>
-//        <TitleBar />
-//        <NavigationBar />
-//    </header>
-//    { root === 'home' ?
-//    <div>
-//      <ImageSlider />
-//      <MainContainer />
-//      <FooterContainer />
-//    </div>
-//    :
-//    <div>
-//      <ImageSlider />
-//      <MainContainer />
-//      <FooterContainer />
-//    </div> }
-//  </div>
-//  )

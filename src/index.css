@@ -1,17 +1,4 @@
-body {
-  margin: 0;
-  padding: 10px;
-  font-family: serif;
-  display: flex;
-  align-content: center;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  justify-items: center;
-  color: rgb(66, 61, 80);
-  background-color: #F5F5F5;
-  position: relative;
-}
+
 @font-face {
   font-family: W_Yekan;
   src: url("./containers/Yekan.woff");
@@ -23,12 +10,86 @@ body {
 }
 .nava {
   font-family: W_Yekan;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.89);
 }
 .mcontent {
-  background-color: rgba(255, 255, 255, 0.2)
+  background-color: rgba(255, 255, 255, 0.8)
 }
-@media only screen and (min-width: 1097px) {
+.titleSpan{
+  background-color: rgba(0, 50, 91, 0.85) !important;
+  color: #f4f4f4;
+}
+.titleForm {
+  display: inline-block !important;
+  font-family: W_Yekan !important;
+  font-weight: bold !important;
+  justify-content: center !important;
+  text-align: center;
+  padding: 7px 3px;
+}
+.titleFormError {
+  display: inline-block !important;
+  font-family: W_Yekan !important;
+  font-weight: bold !important;
+  justify-content: center !important;
+  text-align: center;
+  color: red;
+  padding: 7px 3px;
+}
+.submitButton {
+  display: block !important;
+  font-family: W_Yekan !important;
+  font-weight: bold !important;
+  justify-content: center !important;
+  text-align: center;
+  padding: 7px 3px;
+  width: 100% !important;
+  height: auto !important;
+  margin: 10px 0px;
+  background-color: rgba(0, 50, 91, 0.85) !important;
+  color: #f4f4f4;
+}
+@media only screen and (min-width: 1213px) {
+  .messHeghit{
+    display: block;
+    width: 100%;
+    height: 300px;
+  }
+  .submitButton {
+    font-size: 1.5em;
+  }
+  .titleForm {
+    font-size: 1.5em;
+  }
+  .titleFormError {
+    font-size: 1.2em;
+  }
+  .registerForm {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 55%;
+  }
+  .registerFormContent {
+      width: 80%;
+  }
+  body {
+    margin: 0;
+    padding: 10px;
+    font-family: serif;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    color: rgb(66, 61, 80);
+    position: relative;
+    background-image: url('./bgsize3.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: fixed;
+  }
   .pMainContent{
       font-family: BRoya !important;
       font-size: 1.4em !important;
@@ -55,13 +116,11 @@ body {
       padding: 10px 0px;
       width: 100% !important;
       height: auto !important;
-      background-color: #00325ae8 !important;
-      color: #f4f4f4;
       margin: 10px 0px;
   }
   header {
     padding: 5px 10px 5px 10px;
-    background-image: url("./containers/navbgimage.jpg");
+    background-image: url("./containers/navbgimage.png");
     background-position: top right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -86,8 +145,47 @@ body {
     align-items: center !important;
   }
 }
-
-@media only screen and (max-width: 1096px) {
+@media only screen and (min-width: 711px) and (max-width: 1212px) {
+  .messHeghit{
+    display: block;
+    width: 100%;
+    height: 300px;
+  }
+  .submitButton {
+    font-size: 1.3em;
+  }
+  .titleForm {
+    font-size: 1.4em;
+  }
+  .titleFormError {
+    font-size: 1.2em;
+  }
+  .registerForm {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 480px;
+  }
+  .registerFormContent {
+      width: 420px;
+  }
+  body {
+    margin: 0;
+    padding: 10px;
+    font-family: serif;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    color: rgb(66, 61, 80);
+    position: relative;
+    background-image: url('./bgsize1.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: fixed;
+  }
   .pMainContent{
       font-family: BRoya !important;
       font-size: 1.4em !important;
@@ -114,30 +212,33 @@ body {
       padding: 10px 0px;
       width: 100% !important;
       height: auto !important;
-      background-color: #00325ae8 !important;
-      color: #f4f4f4;
       margin: 10px 0px;
   }
   header {
     padding: 5px 10px 5px 10px;
-    background-image: url("./containers/navbgimage.jpg");
+    background-image: url("./containers/navbgimage.png");
     background-position: top right;
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 1em !important;
   }
+  .imgTrans {
+    opacity: 0.5 !important;
+    filter: alpha(opacity=50) !important;
+  }
   .nava {
     display: inline-block !important;
     color: #131313 !important;
-    padding: 10px 6px !important;
-    width: 125px !important;
+    padding: 14px 4px !important;
+    width: 150px !important;
     height: auto;
     text-align: center;
-    margin-bottom: 0.4em !important;
-    margin-left: 0.7em !important;
+    margin-bottom: 0.6em !important;
+    margin-left: 0.9em !important;
     margin-right: 0px !important;
-    font-size: 0.8em;
+    font-size: 1em;
     font-weight: bold !important;
+    
   }
   .minsnav {
     justify-content: center !important;
@@ -146,7 +247,47 @@ body {
   }
 }
 
-@media only screen and (max-width: 1022px) {
+@media only screen and (min-width: 526px) and (max-width: 710px) {
+  .messHeghit{
+    display: block;
+    width: 100%;
+    height: 220px;
+  }
+  .submitButton {
+    font-size: 1.2em;
+  }
+  .titleForm {
+    font-size: 1.2em;
+  }
+  .titleFormError {
+    font-size: 1em;
+  }
+  .registerForm {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 78%;
+  }
+  .registerFormContent {
+      width: 85%;
+  }
+  body {
+    margin: 0;
+    padding: 10px;
+    font-family: serif;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    color: rgb(66, 61, 80);
+    position: relative;
+    background-image: url('./bgsize1.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: fixed;
+  }
   .pMainContent{
       font-family: BRoya !important;
       font-size: 1.4em !important;
@@ -173,13 +314,13 @@ body {
       padding: 10px 0px;
       width: 100% !important;
       height: auto !important;
-      background-color: #00325ae8 !important;
-      color: #f4f4f4;
+      
+      
       margin: 10px 0px;
   }
   header {
     padding: 5px 10px 5px 10px;
-    background-image: url("./containers/navbgimage.jpg");
+    background-image: url("./containers/navbgimage.png");
     background-position: top right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -188,15 +329,16 @@ body {
   .nava {
     display: inline-block !important;
     color: #131313 !important;
-    padding: 8px 6px !important;
-    width: 100px !important;
+    padding: 12px 3px !important;
+    width: 46% !important;
     height: auto;
     text-align: center;
-    margin-bottom: 0.4em !important;
-    margin-left: 0.3em !important;
+    margin-bottom: 0.5em !important;
+    margin-left: 0.8em !important;
     margin-right: 0px !important;
-    font-size: 0.7em;
+    font-size: 0.9em;
     font-weight: bold !important;
+    
   }
   .minsnav {
     justify-content: center !important;
@@ -205,7 +347,48 @@ body {
   }
 }
 
-@media only screen and (max-width: 470px) {
+@media only screen and (min-width: 320px) and (max-width: 525px) {
+  .messHeghit{
+    display: block;
+    width: 100%;
+    height: 200px;
+  }
+  .submitButton {
+    font-size: 1em;
+  }
+  .titleForm {
+    font-size: 0.9em;
+  }
+  .titleFormError {
+    font-size: 0.8em;
+  }
+  .registerForm {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 85%;
+  }
+  .registerFormContent {
+      width:85%;
+      font-size: 1em !important;
+  }
+  body {
+    margin: 0;
+    padding: 10px;
+    font-family: serif;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    color: rgb(66, 61, 80);
+    position: relative;
+    background-image: url('./bgsize1.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: fixed;
+  }
   .pMainContent{
       font-family: BRoya !important;
       font-size: 1em !important;
@@ -222,7 +405,7 @@ body {
   }
   header {
     padding: 3px 8px 3px 8px;
-    background-image: url("./containers/navbgimage.jpg");
+    background-image: url("./containers/navbgimage.png");
     background-position: top right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -231,15 +414,16 @@ body {
   .nava {
     display: inline-block !important;
     color: #131313;
-    padding: 7px 0px !important;
-    width: 45%;
+    padding: 7px 5px !important;
+    width: 46%;
     height: auto;
     text-align: center;
     margin-bottom: 0.5em !important;
     margin-right: 0em !important;
-    margin-left: 1.5em !important;
-    font-size: 0.7em;
-    font-weight: normal !important;
+    margin-left: 0.9em !important;
+    font-size: 0.75em;
+    font-weight: bold !important;
+    
   }
   .minsnav {
     justify-content: center !important;
@@ -256,8 +440,106 @@ body {
     padding: 10px 0px;
     width: 100% !important;
     height: auto !important;
-    background-color: #00325ae8 !important;
-    color: #f4f4f4;
+    
+    
+    margin: 10px 0px;
+}
+}
+@media only screen and (max-width: 319px) {
+  .messHeghit{
+    display: block;
+    width: 100%;
+    height: 180px;
+  }
+  .submitButton {
+    font-size: 0.9em;
+  }
+  .titleForm {
+    font-size: 0.8em;
+  }
+  .titleFormError {
+    font-size: 0.8em;
+  }
+  .registerForm {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 97%;
+  }
+  .registerFormContent {
+      width:95%;
+      font-size: 0.9em !important;
+  }
+  body {
+    margin: 0;
+    padding: 10px;
+    font-family: serif;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    color: rgb(66, 61, 80);
+    position: relative;
+    background-image: url('./bgsize1.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: fixed;
+  }
+  .pMainContent{
+      font-family: BRoya !important;
+      font-size: 1em !important;
+      font-weight: normal !important;
+      justify-content: right !important;
+      margin-right: 6px !important;
+  }
+  .pListContent{
+    font-family: W_Yekan !important;
+    font-weight: normal !important;
+    justify-content: center !important;
+    text-align: center !important;
+    margin-right: 6px !important;
+  }
+  header {
+    padding: 3px 8px 3px 8px;
+    background-image: url("./containers/navbgimage.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0.7em !important;
+  }
+  .nava {
+    display: inline-block !important;
+    color: #131313;
+    padding: 5px 1px !important;
+    width: 44%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 0.5em !important;
+    margin-right: 0em !important;
+    margin-left: 0.7em !important;
+    font-size: 0.75em;
+    font-weight: bold !important;
+    
+  }
+  .minsnav {
+    justify-content: center !important;
+    align-content: center !important;
+    align-items: center !important;
+  }
+  .titleSpan {
+    display: block !important;
+    font-family: W_Yekan !important;
+    font-size: 1em !important;
+    font-weight: bold !important;
+    justify-content: center !important;
+    text-align: center;
+    padding: 10px 0px;
+    width: 100% !important;
+    height: auto !important;
+    
+    
     margin: 10px 0px;
 }
 }
